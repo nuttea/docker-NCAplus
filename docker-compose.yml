@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+   ncaplus:
+     image: nuttea/ncaplus
+     ports:
+       - "5005:5005"
